@@ -136,7 +136,9 @@ class GLIPDemo(object):
             original_caption, 
             thresh=0.5,
             custom_entity = None,
-            alpha = 0.0):
+            alpha = 0.0,
+            color = 128):
+        self.color = color
         predictions = self.compute_prediction(original_image, original_caption, custom_entity)
         top_predictions = self._post_process(predictions, thresh)
 

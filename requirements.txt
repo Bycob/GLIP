@@ -1,0 +1,19 @@
+--extra-index-url https://download.pytorch.org/whl/cu113
+torch==1.10.0+cu113
+torchvision==0.11.0+cu113
+einops
+shapely
+timm
+yacs
+tensorboardX
+ftfy
+prettytable
+pymongo
+click
+inflect
+transformers
+opencv-python
+nltk
+pycocotools
+scipy
+scikit-learn
