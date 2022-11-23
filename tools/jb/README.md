@@ -15,5 +15,5 @@ wget https://github.com/Bycob/GLIP/blob/main/configs/pretrain/glip_Swin_T_O365_G
 ```
 - Run
 ```bash
-python3 auto_annotate.py --model_config MODELS/glip_Swin_T_O365_GoldG.yaml --weights_file MODELS/glip_tiny_model_o365_goldg_cc_sbu.pth images/
+python3 tools/jb/auto_annotate.py -v --labels tools/jb/labels.json --model_config MODELS/glip_Swin_T_O365_GoldG.yaml --weights_file MODELS/glip_tiny_model_o365_goldg_cc_sbu.pth images/ --output_dir dataset/
 ```
